@@ -29784,40 +29784,46 @@ local button = Instance.new("TextButton")
 	end)
 --
 local button = Instance.new("TextButton")
-	button.Parent = psd
-	button.BackgroundColor3 = blak
-	button.BorderColor3 = rede
-	button.BorderSizePixel = 3
-	button.Name = "Thomas"
-	button.Position = UDim2.new(0,0,0,66)
-	button.Size = UDim2.new(0.5,0,0,30)
-	button.ZIndex = 2
-	button.Font = tef
-	button.FontSize = "Size14"
-	button.Text = "Thomas"
-	button.TextColor3 = whit
-	button.TextWrapped = true
-	button.MouseButton1Down:connect(function()
-	frame.Settings.Page1["Skybox/Decal ID"].TextBox.Text = 160456772	
-	end)
+button.Parent = psd
+button.BackgroundColor3 = blak
+button.BorderColor3 = rede
+button.BorderSizePixel = 3
+button.Name = "y0lkiddd"
+button.Position = UDim2.new(0,0,0,66)
+button.Size = UDim2.new(0.5,0,0,30)
+button.ZIndex = 2
+button.Font = tef
+button.FontSize = "Size14"
+button.Text = "y0lkiddd combo"
+button.TextColor3 = whit
+button.TextWrapped = true
+
+button.MouseButton1Down:Connect(function()
+    -- Aqui você coloca seu loadstring
+    local scriptURL = "https://raw.githubusercontent.com/y0lkiddd/y0lkidddCombo/main/y0lkiddd%20combo.lua"
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/y0lkiddd/y0lkidddCombo/main/y0lkiddd%20combo.lua"))()
+end)
 --
 local button = Instance.new("TextButton")
-	button.Parent = psd
-	button.BackgroundColor3 = blak
-	button.BorderColor3 = rede
-	button.BorderSizePixel = 3
-	button.Name = "c00lkidd"
-	button.Position = UDim2.new(0.5,3,0,66)
-	button.Size = UDim2.new(0.5,-3,0,30)
-	button.ZIndex = 2
-	button.Font = tef
-	button.FontSize = "Size14"
-	button.Text = "c00lkidd"
-	button.TextColor3 = whit
-	button.TextWrapped = true
-	button.MouseButton1Down:connect(function()
-	frame.Settings.Page1["Skybox/Decal ID"].TextBox.Text = 157755295	
-	end)
+button.Parent = psd
+button.BackgroundColor3 = blak
+button.BorderColor3 = rede
+button.BorderSizePixel = 3
+button.Name = "c00lkidd"
+button.Position = UDim2.new(0,0,0,66)
+button.Size = UDim2.new(0.5,0,0,30)
+button.ZIndex = 2
+button.Font = tef
+button.FontSize = "Size14"
+button.Text = "c00lkidd combo"
+button.TextColor3 = whit
+button.TextWrapped = true
+
+button.MouseButton1Down:Connect(function()
+    -- Aqui você coloca seu loadstring
+    local scriptURL = "https://raw.githubusercontent.com/y0lkiddd/c00lkiddCombo/main/c00lkiddcombo"
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/y0lkiddd/c00lkiddCombo/main/c00lkiddcombo"))()
+end)
 --
 local button = Instance.new("TextButton")
 	button.Parent = psd
@@ -30954,4 +30960,6 @@ left.MouseButton1Down:connect(function()FlipPage(-1) end)
 page1.addonl.MouseButton1Down:connect(function()CurrentPage=6 FlipPage(-1) end)
 page5.addonr.MouseButton1Down:connect(function()CurrentPage=0 FlipPage(1) end)
 -----------------------------------------------------------------------------
+
+
 
