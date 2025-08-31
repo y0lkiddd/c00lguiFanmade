@@ -30950,7 +30950,7 @@ function FlipPage(Way)
 		CurrentPage = NewPage
 		local P = pges:GetChildren()
 		for i = 1, #P do
-			P[i].Visible = false
+			P[i].Visible = true
 		end
 		pges:findFirstChild("Page"..NewPage).Visible = true
 	end
