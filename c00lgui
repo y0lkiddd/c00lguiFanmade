@@ -29810,8 +29810,8 @@ button.BackgroundColor3 = blak
 button.BorderColor3 = rede
 button.BorderSizePixel = 3
 button.Name = "c00lkidd"
-button.Position = UDim2.new(0,0,0,66)
-button.Size = UDim2.new(0.5,0,0,30)
+button.Position = UDim2.new(0.5,3,0,66)
+button.Size = UDim2.new(0.5,-3,0,30)
 button.ZIndex = 2
 button.Font = tef
 button.FontSize = "Size14"
@@ -30950,7 +30950,7 @@ function FlipPage(Way)
 		CurrentPage = NewPage
 		local P = pges:GetChildren()
 		for i = 1, #P do
-			P[i].Visible = true
+			P[i].Visible = false
 		end
 		pges:findFirstChild("Page"..NewPage).Visible = true
 	end
