@@ -169,7 +169,7 @@ local title = Instance.new("TextLabel")
 	title.ZIndex = 2
 	title.Font = tef
 	title.FontSize = "Size24"
-	title.Text = "c00lgui Reborn Rc7 by v3rx"
+	title.Text = "c00lgui"
 	title.TextColor3 = whit
 --           inside pages        --
 local acg = Instance.new("Frame")
@@ -30954,3 +30954,4 @@ left.MouseButton1Down:connect(function()FlipPage(-1) end)
 page1.addonl.MouseButton1Down:connect(function()CurrentPage=6 FlipPage(-1) end)
 page5.addonr.MouseButton1Down:connect(function()CurrentPage=0 FlipPage(1) end)
 -----------------------------------------------------------------------------
+
