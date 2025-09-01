@@ -308,15 +308,6 @@ local button = Instance.new("TextButton")
 %ungod plr
 --]]
 
-local ReplicatedStorage = game:GetService("ReplicatedStorage")
-
-local UniversalEvent = ReplicatedStorage:WaitForChild("UniversalEvent")
-
-local function LocalUniversal(commandName, ...)
-    UniversalEvent:FireServer(commandName, ...)
-end
-
-_G.FireUniversal = LocalUniversal
 
 
 local Admins = game.Players.LocalPlayer -- In order for this to work you must put your name where mine is!
@@ -30962,8 +30953,6 @@ function FlipPage(Way)
 			P[i].Visible = false
 		end
 		pges:findFirstChild("Page"..NewPage).Visible = true
-	end
-		_G.FireUniversal("ALL")
 	end
 end
 right.MouseButton1Down:connect(function()FlipPage(1) end)
